@@ -1,8 +1,4 @@
-/*
-The instruction fetch unit has clock and reset pins as input and 32-bit instruction code as output.
-Internally the block has Instruction Memory, Program Counter(P.C) and an adder to increment counter by 4, 
-on every positive clock edge.
-*/
+
 `include "INST_MEM.v"
 
 module IFU(
