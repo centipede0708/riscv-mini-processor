@@ -1,7 +1,4 @@
-/* 
-Control unit controls takes opcode, funct7, funct3 of the instruction code to determine
-and control regwrite in IFU, alu control in ALU to execute proper instruction
-*/
+
 module CONTROL(
     input [6:0] funct7,
     input [2:0] funct3,
